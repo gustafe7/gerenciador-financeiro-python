@@ -57,7 +57,5 @@ Os registros são armazenados no arquivo `auditoria.log`.
 ---
 
 ## ▶️ Como Executar
-
-1. Clone o repositório:
 ```bash
-git clone https://github.com/gustafe7/gerenciador-financeiro-python.git
+python financeiro.py
