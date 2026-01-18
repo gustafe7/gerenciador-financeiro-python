@@ -1,19 +1,63 @@
-# 💰 Gerenciador Financeiro em Python (CLI)
+# 💰 Gerenciador Financeiro em Python
 
-Projeto desenvolvido em Python para registro simples de receitas e despesas via terminal, com persistência em arquivo.
+Projeto desenvolvido em **Python** com foco em boas práticas de programação,
+organização de código, persistência de dados e auditoria de ações.
 
-## Funcionalidades
-- Registrar receitas
-- Registrar despesas
-- Listar registros
-- Calcular saldo atual
-- Salvar dados em arquivo `.txt`
+O sistema funciona via **terminal**, permitindo o controle de receitas e despesas
+de forma simples, clara e auditável.
 
-## Tecnologias Utilizadas
+---
+
+## 🎯 Objetivo do Projeto
+
+Permitir que o usuário:
+- Registre receitas e despesas
+- Consulte registros financeiros
+- Visualize o saldo atual
+- Tenha todas as ações auditadas (logs)
+
+---
+
+## 🚀 Funcionalidades
+
+- Registro de receitas
+- Registro de despesas
+- Listagem de lançamentos
+- Cálculo automático do saldo
+- Sistema de auditoria de ações
+- Persistência de dados em arquivo
+- Logs com data, tipo de ação e descrição
+
+---
+
+## 🛡️ Sistema de Auditoria
+
+O projeto possui um módulo de auditoria responsável por registrar todas as ações
+realizadas no sistema.
+
+### Ações auditadas:
+- Registro de receitas
+- Registro de despesas
+- Erros de entrada (valores inválidos)
+- Eventos importantes do sistema
+
+### Exemplo de log:
+Os registros são armazenados no arquivo `auditoria.log`.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
 - Python 3
-- Git
-- GitHub
+- Manipulação de arquivos
+- Estruturas de dados (listas)
+- Modularização
+- Git e GitHub
 
-## Como executar o projeto
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
 ```bash
-python gerenciador_financeiro.py
+git clone https://github.com/gustafe7/gerenciador-financeiro-python.git
